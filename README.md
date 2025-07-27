@@ -18,39 +18,6 @@ This project was developed to:
 * **Quantifiable Results**: Achieves 95% of maximum CartPole reward with optimized hyperparameters, demonstrating the same precision I've applied to previous projects (94.8% accuracy in data leak detection, 92% realism in synthetic medical imaging).
 * **Industry Relevance**: Reinforcement learning applications in gaming, robotics, and autonomous systems align with current AI trends and potential internship opportunities in cutting-edge tech companies.
 
-## Setup and Usage
-
-### 1. Clone the repository:
-```bash
-git clone <repository-url>
-cd rl_game_ai
-```
-
-### 2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Train the agent:
-```bash
-python main.py
-```
-
-### 4. Evaluate the model:
-```bash
-python evaluate.py models/dqn_cartpole_1000.pth
-```
-
-### 5. Generate gameplay video:
-```bash
-python visualize.py models/dqn_cartpole_1000.pth
-```
-
-### 6. Run the web demo:
-```bash
-streamlit run app.py
-```
-
 ## Results
 
 * **Performance**: Average reward of 195/200 over 100 test episodes.
